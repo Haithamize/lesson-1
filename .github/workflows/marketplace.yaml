@@ -1,0 +1,12 @@
+name : marketplace
+
+on : push
+
+jobs:
+    job1:
+      runs-on: ubuntu-latest
+      
+      steps:
+      - name: checkout the code
+      - uses: actions/checkout@v3
+      - run : date
